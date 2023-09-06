@@ -21,6 +21,7 @@ namespace BookStore.Controllers
             _context = context;
         }
 
+        //Destiny with vanity
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
